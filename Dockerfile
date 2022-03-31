@@ -1,12 +1,15 @@
-# Tags: latest, 4.3.1-debian-10-r40, 4.3.1, 4-debian-10, 4
+# Tags: latest, 4.3.1-debian-10-r41, 4.3.1, 4-debian-10, 4
 FROM bitnami/pgpool:latest
-FROM bitnami/pgpool:4.3.1-debian-10-r40
+FROM bitnami/pgpool:4.3.1-debian-10-r41
 FROM bitnami/pgpool:4.3.1
 FROM bitnami/pgpool:4-debian-10
 FROM bitnami/pgpool:4
 
 # Tags: _
 FROM bitnami/pgpool:_
+
+# Tags: 4.3.1-debian-10-r40
+FROM bitnami/pgpool:4.3.1-debian-10-r40
 
 # Tags: 4.3.1-debian-10-r39
 FROM bitnami/pgpool:4.3.1-debian-10-r39
@@ -91,6 +94,3 @@ FROM bitnami/pgpool:4.3.1-debian-10-r13
 
 # Tags: 4.3.1-debian-10-r12
 FROM bitnami/pgpool:4.3.1-debian-10-r12
-
-# Tags: 4.3.1-debian-10-r11
-FROM bitnami/pgpool:4.3.1-debian-10-r11
